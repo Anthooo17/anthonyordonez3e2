@@ -1,0 +1,30 @@
+
+.sidemenu-container{
+    width: 50%;
+    height: 100vh; /*altura de la pantalla*/
+    background-color: rgb(99, 189, 181);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px; /*espaacio entre elemntos*/
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.item p {
+    width: 75px;
+    text-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+img{
+    width: 55px;
+    border-radius: 50px;
+}
